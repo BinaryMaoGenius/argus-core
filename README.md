@@ -98,7 +98,3 @@ cos/
 ├── ROADMAP.md
 └── README.md
 ```
-
-## Licence
-
-À définir avant la v0.2 (open source visé, MIT ou Apache 2.0).
