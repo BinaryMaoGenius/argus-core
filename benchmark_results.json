@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-07-10T22:50:54.388944",
+  "tests": {
+    "triage_0.5b__trivial": {
+      "runs": [
+        {
+          "time_to_first_token_s": 7.498,
+          "total_time_s": 34.837,
+          "approx_tokens": 581
+        },
+        {
+          "time_to_first_token_s": 3.16,
+          "total_time_s": 29.289,
+          "approx_tokens": 690
+        },
+        {
+          "time_to_first_token_s": 2.947,
+          "total_time_s": 28.24,
+          "approx_tokens": 645
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 4.535,
+        "mean_total_time_s": 30.789,
+        "min_total_time_s": 28.24,
+        "max_total_time_s": 34.837
+      }
+    },
+    "triage_0.5b__debug_django": {
+      "runs": [
+        {
+          "time_to_first_token_s": 3.204,
+          "total_time_s": 31.515,
+          "approx_tokens": 736
+        },
+        {
+          "time_to_first_token_s": 3.025,
+          "total_time_s": 30.719,
+          "approx_tokens": 717
+        },
+        {
+          "time_to_first_token_s": 2.968,
+          "total_time_s": 31.809,
+          "approx_tokens": 729
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 3.066,
+        "mean_total_time_s": 31.348,
+        "min_total_time_s": 30.719,
+        "max_total_time_s": 31.809
+      }
+    },
+    "triage_0.5b__complexe_multi_etapes": {
+      "runs": [
+        {
+          "time_to_first_token_s": 3.6,
+          "total_time_s": 31.409,
+          "approx_tokens": 675
+        },
+        {
+          "time_to_first_token_s": 2.985,
+          "total_time_s": 31.041,
+          "approx_tokens": 676
+        },
+        {
+          "time_to_first_token_s": 3.005,
+          "total_time_s": 41.964,
+          "approx_tokens": 935
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 3.197,
+        "mean_total_time_s": 34.805,
+        "min_total_time_s": 31.041,
+        "max_total_time_s": 41.964
+      }
+    },
+    "coder_7b__trivial": {
+      "runs": [
+        {
+          "time_to_first_token_s": 23.283,
+          "total_time_s": 80.574,
+          "approx_tokens": 216
+        },
+        {
+          "time_to_first_token_s": 3.233,
+          "total_time_s": 43.225,
+          "approx_tokens": 167
+        },
+        {
+          "time_to_first_token_s": 3.207,
+          "total_time_s": 69.973,
+          "approx_tokens": 280
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 9.908,
+        "mean_total_time_s": 64.591,
+        "min_total_time_s": 43.225,
+        "max_total_time_s": 80.574
+      }
+    },
+    "coder_7b__debug_django": {
+      "runs": [
+        {
+          "time_to_first_token_s": 5.821,
+          "total_time_s": 82.822,
+          "approx_tokens": 319
+        },
+        {
+          "time_to_first_token_s": 3.191,
+          "total_time_s": 117.461,
+          "approx_tokens": 457
+        },
+        {
+          "time_to_first_token_s": 3.353,
+          "total_time_s": 113.551,
+          "approx_tokens": 424
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 4.122,
+        "mean_total_time_s": 104.611,
+        "min_total_time_s": 82.822,
+        "max_total_time_s": 117.461
+      }
+    },
+    "coder_7b__complexe_multi_etapes": {
+      "runs": [
+        {
+          "time_to_first_token_s": 7.691,
+          "total_time_s": 189.324,
+          "approx_tokens": 648
+        },
+        {
+          "time_to_first_token_s": 3.26,
+          "total_time_s": 291.816,
+          "approx_tokens": 1341
+        },
+        {
+          "time_to_first_token_s": 2.678,
+          "total_time_s": 156.218,
+          "approx_tokens": 775
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 4.543,
+        "mean_total_time_s": 212.453,
+        "min_total_time_s": 156.218,
+        "max_total_time_s": 291.816
+      }
+    },
+    "keep_alive_effect": {
+      "cold": {
+        "time_to_first_token_s": 10.87,
+        "total_time_s": 66.062,
+        "approx_tokens": 280
+      },
+      "warm": {
+        "time_to_first_token_s": 2.51,
+        "total_time_s": 128.803,
+        "approx_tokens": 560
+      }
+    },
+    "stable_prefix_effect": {
+      "call_1": {
+        "time_to_first_token_s": 4.848,
+        "total_time_s": 13.326,
+        "approx_tokens": 42
+      },
+      "call_2": {
+        "time_to_first_token_s": 3.058,
+        "total_time_s": 17.341,
+        "approx_tokens": 64
+      }
+    }
+  }
+}

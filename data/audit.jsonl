@@ -1,0 +1,163 @@
+{"timestamp": "2026-07-15T22:00:32.100369+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-15T22:00:32.114452+00:00", "event": "execution.completed", "execution_id": "ff7573f6e123454a9452f92d2119f2e7", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-15T22:00:32.203117+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-15T22:00:32.263225+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:04:46.425953+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:04:46.437388+00:00", "event": "execution.completed", "execution_id": "92b2f3c514e4498781b1c923b46501ad", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:04:46.452956+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:04:46.473963+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:05:24.029641+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:05:24.035418+00:00", "event": "execution.completed", "execution_id": "667f23f2bd1f4f64adccc10932d95f71", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:05:24.049439+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:05:24.072354+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:06:07.193870+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:06:07.214446+00:00", "event": "execution.completed", "execution_id": "3e758af6e86e4c579164de0f4ecca524", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:06:07.232528+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:06:07.261317+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:11:40.732061+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:11:40.742177+00:00", "event": "execution.completed", "execution_id": "558cbe2f390c45b994df413a58e26317", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:11:40.754152+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:11:40.780823+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:15:05.334328+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:15:05.341299+00:00", "event": "execution.completed", "execution_id": "c0b0f211360e42ebaba47850b6152495", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:15:05.355273+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:15:05.378655+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:15:55.511690+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:15:55.521311+00:00", "event": "execution.completed", "execution_id": "03db1b0a4e74417abb3223c75163bca1", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:15:55.539445+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:15:55.560753+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:16:45.139978+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:16:45.151236+00:00", "event": "execution.completed", "execution_id": "1537ed0efff745d5b879e0b0d58a2f4a", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:16:45.165996+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:16:45.193986+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:17:26.462582+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:17:26.471425+00:00", "event": "execution.completed", "execution_id": "c9d63a6fcb8546b4b7a517ff43908e10", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:17:26.485656+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:17:26.511250+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:22:52.971531+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:22:52.980314+00:00", "event": "execution.completed", "execution_id": "f358d169c2424b6ab4fce45c281d8d39", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:22:52.993716+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:22:53.022614+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:23:33.751718+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:23:33.760876+00:00", "event": "execution.completed", "execution_id": "fd529d1c11024f788d77245985627b43", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:23:33.774428+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:23:33.797823+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T10:24:21.995261+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T10:24:22.009055+00:00", "event": "execution.completed", "execution_id": "5ffa65d30fd9409ba5232b8269915603", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T10:24:22.022567+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T10:24:22.050622+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T12:10:53.133905+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T12:10:53.138370+00:00", "event": "execution.completed", "execution_id": "e61c361abdd447bc8305613377b38b6c", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T12:10:53.143961+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T12:10:53.151247+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T12:11:44.352588+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T12:11:44.356807+00:00", "event": "execution.completed", "execution_id": "7f3a16c5cc0b49f3a5dfaafaf693886d", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T12:11:44.363115+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T12:11:44.372541+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T13:02:35.053255+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T13:02:35.056452+00:00", "event": "execution.completed", "execution_id": "6b5376ce9e6e4939ad06f2c240550ce1", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T13:02:35.060567+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T13:02:35.069793+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T13:02:56.698207+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T13:02:56.701609+00:00", "event": "execution.completed", "execution_id": "c518529de0d74b549eed1e717f130972", "goal": "safe noop", "success": true, "duration_s": 0.0, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T13:02:56.705917+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T13:02:56.714265+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:10:35.157274+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:10:35.232901+00:00", "event": "execution.completed", "execution_id": "ba1d32ddc8e944afa610d100c1f729eb", "goal": "safe noop", "success": true, "duration_s": 0.003, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:10:35.463198+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:10:36.690518+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:11:10.743591+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:11:10.877135+00:00", "event": "execution.completed", "execution_id": "c6f6f02a1bc6463f9bff7b1429da752a", "goal": "safe noop", "success": true, "duration_s": 0.003, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:11:10.932928+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:11:11.195100+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:21:43.431060+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:21:43.455806+00:00", "event": "execution.completed", "execution_id": "22c91bd3d0e4443b9993c0dbc916cdab", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:21:43.479826+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:21:43.531082+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:21:54.169928+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:21:54.200454+00:00", "event": "execution.completed", "execution_id": "a90d6c167bec468f9ba34f811133cea7", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:21:54.227552+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:21:54.275169+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:22:04.434054+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:22:04.451646+00:00", "event": "execution.completed", "execution_id": "d467a11fe6954d37aaeb1553e7042e02", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:22:04.474458+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:22:04.518663+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:22:33.441812+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:22:33.456821+00:00", "event": "execution.completed", "execution_id": "169cf4edd74842758795e1bd36e1bdd6", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:22:33.482808+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:22:33.521586+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:23:15.283973+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:23:15.303139+00:00", "event": "execution.completed", "execution_id": "303b8437b595464392a3a8c8ffc853eb", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:23:15.332621+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:23:15.377782+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:37:12.857027+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:37:12.874718+00:00", "event": "execution.completed", "execution_id": "f8da6bebc63f4b19b7ea6a1ea3752db3", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:37:19.626256+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:37:19.962065+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:37:28.491815+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:37:28.510222+00:00", "event": "execution.completed", "execution_id": "d549afba14f24218ad52495d8deb8f3d", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:37:37.910303+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:37:38.466255+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:37:56.712352+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:37:56.732069+00:00", "event": "execution.completed", "execution_id": "a0af5c2ede444474b4a8a0448ade74f6", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:38:06.711994+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:38:07.103601+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:38:27.014491+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:38:27.067601+00:00", "event": "execution.completed", "execution_id": "1bbb731a23aa4e4ba16eb74fb97b2962", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:38:36.707147+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:38:38.039804+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:38:55.529251+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:38:55.548351+00:00", "event": "execution.completed", "execution_id": "e206539f44f14fa2a919cd86e10f9201", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:39:04.396022+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:39:04.920915+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:09.703669+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:09.724469+00:00", "event": "execution.completed", "execution_id": "9a0efa0150534070849a72f9e542a58b", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:40:13.909453+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:14.012385+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:40:14.518133+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:21.159830+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:21.175640+00:00", "event": "execution.completed", "execution_id": "0a9dfd3ef1aa42ad9d611b5245fbb195", "goal": "safe noop", "success": true, "duration_s": 0.004, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:40:25.325312+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:25.955618+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:40:26.722782+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:46.333622+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:46.347039+00:00", "event": "execution.completed", "execution_id": "e38208caac2d41029c421c0cf4e2bb2e", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:40:50.487269+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:40:50.520922+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:40:50.718573+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:56:10.383111+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:56:10.410551+00:00", "event": "execution.completed", "execution_id": "12c5b0b34c2a4518bf9bd5b631cfc565", "goal": "safe noop", "success": true, "duration_s": 0.004, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:56:43.694163+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:56:43.737625+00:00", "event": "execution.completed", "execution_id": "dcc9f2dac754410ebb3eabca0a13e5c7", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:57:26.667241+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:57:29.363832+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:57:47.015606+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:57:47.497424+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:57:56.757713+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:57:56.788274+00:00", "event": "execution.completed", "execution_id": "a6a94c22c8af419b8bda8f02f5bea473", "goal": "safe noop", "success": true, "duration_s": 0.002, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:57:59.317857+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T15:57:59.342260+00:00", "event": "execution.completed", "execution_id": "cd743b62feb14a1db1d1fef501d340d7", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T15:58:31.550783+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:58:32.635077+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:59:25.234102+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T15:59:25.713991+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T15:59:26.497453+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:01:59.794625+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T16:01:59.820813+00:00", "event": "execution.completed", "execution_id": "2a01b00aa06d436aba990a94461a1ae5", "goal": "safe noop", "success": true, "duration_s": 0.003, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T16:02:34.555612+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:02:34.718029+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T16:02:36.667790+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:02:45.939313+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T16:02:45.962868+00:00", "event": "execution.completed", "execution_id": "0c8924edd41d4a7b89c86846dddd570b", "goal": "safe noop", "success": true, "duration_s": 0.003, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T16:03:13.157001+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T16:03:15.098310+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:04:41.712764+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:05:08.452003+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:05:26.572720+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:13:44.106778+00:00", "event": "execution.pending_confirmation", "goal": "", "steps": 1, "confidence": 1.0}
+{"timestamp": "2026-07-16T16:13:44.327882+00:00", "event": "execution.completed", "execution_id": "570fe96b9483486998d86909dd53d130", "goal": "safe noop", "success": true, "duration_s": 0.001, "tasks_total": 1, "tasks_failed": 0}
+{"timestamp": "2026-07-16T16:13:44.359881+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:13:44.407502+00:00", "event": "execution.blocked", "reason": "verification", "steps": 1}
+{"timestamp": "2026-07-16T16:13:45.659521+00:00", "event": "plan.created", "goal": "Inspect the project", "steps": 1, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:15:36.644649+00:00", "event": "plan.created", "goal": "hello", "steps": 0, "status": "verified", "confidence": 1.0}
+{"timestamp": "2026-07-16T16:15:38.748163+00:00", "event": "plan.created", "goal": "do it", "steps": 0, "status": "verified", "confidence": 1.0}

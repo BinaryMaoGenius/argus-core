@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COS MVP Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; background: #0f172a; color: #f8fafc; }
+    .card { background: #111827; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+    button { background: #22c55e; border: none; color: white; padding: 0.8rem 1rem; border-radius: 8px; cursor: pointer; }
+    button.secondary { background: #2563eb; }
+    button.disabled { opacity: 0.6; cursor: not-allowed; }
+    input, textarea { width: 100%; padding: 0.8rem; border-radius: 10px; margin-top: 0.5rem; border: 1px solid #334155; background: #0f172a; color: #f8fafc; }
+    pre { white-space: pre-wrap; background: #020617; padding: 1rem; border-radius: 12px; overflow-x: auto; }
+    .badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.9rem; border-radius: 999px; font-weight: 700; margin-bottom: 1rem; }
+    .badge.fast { background: #22c55e; color: #0f172a; }
+    .badge.slow { background: #f59e0b; color: #0f172a; }
+    .row { display: grid; gap: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>COS MVP — Démo de génération streamée</h1>
+
+  <div class="card">
+    <h2>1. Vérifier l’API</h2>
+    <button onclick="ping()">Tester /ping</button>
+    <pre id="pingResult">Cliquez pour vérifier.</pre>
+  </div>
+
+  <div class="card">
+    <h2>2. Génération streamée</h2>
+    <div class="row">
+      <textarea id="generatePrompt" rows="4">Explique rapidement comment lister des fichiers en Python.</textarea>
+      <div>
+        <button onclick="decidePrompt()" class="secondary">Décider le chemin</button>
+        <button onclick="generateStream()">Générer stream</button>
+      </div>
+      <div id="routeInfo"></div>
+      <pre id="streamResult">Aucun stream démarré.</pre>
+      <pre id="metricsResult"></pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>3. Mémoire</h2>
+    <label>Texte mémoire</label>
+    <textarea id="memoryText">Liste les fichiers Python avec os.listdir</textarea>
+    <button onclick="writeMemory()">Enregistrer</button>
+    <pre id="memoryResult"></pre>
+    <label>Recherche</label>
+    <input id="query" value="list files" />
+    <button onclick="recallMemory()" class="secondary">Rechercher</button>
+    <pre id="recallResult"></pre>
+  </div>
+
+  <script>
+    async function ping() {
+      const r = await fetch('/ping');
+      document.getElementById('pingResult').textContent = JSON.stringify(await r.json(), null, 2);
+    }
+
+    async function decidePrompt() {
+      const prompt = document.getElementById('generatePrompt').value;
+      const r = await fetch('/decide?prompt=' + encodeURIComponent(prompt), { method: 'POST' });
+      const data = await r.json();
+      document.getElementById('routeInfo').innerHTML = `<span class="badge ${data.path}">${data.path.toUpperCase()}</span> ${data.model} — ${data.reason}`;
+    }
+
+    async function generateStream() {
+      const prompt = document.getElementById('generatePrompt').value;
+      document.getElementById('streamResult').textContent = 'Streaming en cours...';
+      document.getElementById('metricsResult').textContent = '';
+      document.getElementById('routeInfo').innerHTML = '';
+
+      const response = await fetch('/generate/stream', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt, num_predict: 80 })
+      });
+
+      if (!response.ok) {
+        document.getElementById('streamResult').textContent = 'Erreur: ' + response.status;
+        return;
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+      let output = '';
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        let lines = buffer.split('\n');
+        buffer = lines.pop();
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          try {
+            const chunk = JSON.parse(line);
+            handleStreamChunk(chunk, output);
+          } catch (error) {
+            console.error('Chunk JSON invalide', line, error);
+          }
+        }
+      }
+
+      if (buffer.trim()) {
+        try {
+          const chunk = JSON.parse(buffer);
+          handleStreamChunk(chunk, output);
+        } catch (error) {
+          console.error('Chunk JSON invalide', buffer, error);
+        }
+      }
+    }
+
+    function handleStreamChunk(chunk) {
+      if (chunk.type === 'routing') {
+        const badge = `<span class="badge ${chunk.path}">${chunk.path.toUpperCase()}</span>`;
+        document.getElementById('routeInfo').innerHTML = `${badge} ${chunk.model} — ${chunk.reason}`;
+        document.getElementById('streamResult').textContent = '';
+        return;
+      }
+      if (chunk.type === 'metrics') {
+        document.getElementById('metricsResult').textContent = `Temps first token: ${chunk.time_to_first_token_s}s\nTotal: ${chunk.total_time_s}s\nTokens: ${chunk.approx_tokens}`;
+        return;
+      }
+      if (chunk.response !== undefined) {
+        const current = document.getElementById('streamResult').textContent;
+        document.getElementById('streamResult').textContent = current + chunk.response;
+      }
+    }
+
+    async function writeMemory() {
+      const payload = { text: document.getElementById('memoryText').value, layer: 'working' };
+      const r = await fetch('/memory/write', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+      document.getElementById('memoryResult').textContent = JSON.stringify(await r.json(), null, 2);
+    }
+
+    async function recallMemory() {
+      const q = document.getElementById('query').value;
+      const r = await fetch('/memory/recall?q=' + encodeURIComponent(q) + '&top_k=5');
+      document.getElementById('recallResult').textContent = JSON.stringify(await r.json(), null, 2);
+    }
+  </script>
+</body>
+</html>

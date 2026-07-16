@@ -1,0 +1,17 @@
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+*.egg-info/
+dist/
+build/
+temp_frontend/
+node_modules/
+.DS_Store
+.env
+.vscode/
+.idea/
+bun.lock
+/.cache/

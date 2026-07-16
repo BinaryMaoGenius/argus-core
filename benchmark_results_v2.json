@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-07-10T23:30:48.292555",
+  "tests": {
+    "triage_0.5b__trivial": {
+      "runs": [
+        {
+          "time_to_first_token_s": 7.142,
+          "total_time_s": 8.884,
+          "approx_tokens": 20
+        },
+        {
+          "time_to_first_token_s": 3.186,
+          "total_time_s": 4.607,
+          "approx_tokens": 20
+        },
+        {
+          "time_to_first_token_s": 3.22,
+          "total_time_s": 4.372,
+          "approx_tokens": 20
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 4.516,
+        "mean_total_time_s": 5.954,
+        "min_total_time_s": 4.372,
+        "max_total_time_s": 8.884
+      }
+    },
+    "triage_0.5b__debug_django": {
+      "runs": [
+        {
+          "time_to_first_token_s": 3.716,
+          "total_time_s": 5.202,
+          "approx_tokens": 20
+        },
+        {
+          "time_to_first_token_s": 3.103,
+          "total_time_s": 4.421,
+          "approx_tokens": 20
+        },
+        {
+          "time_to_first_token_s": 3.096,
+          "total_time_s": 4.292,
+          "approx_tokens": 20
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 3.305,
+        "mean_total_time_s": 4.638,
+        "min_total_time_s": 4.292,
+        "max_total_time_s": 5.202
+      }
+    },
+    "triage_0.5b__complexe_multi_etapes": {
+      "runs": [
+        {
+          "time_to_first_token_s": 2.809,
+          "total_time_s": 3.228,
+          "approx_tokens": 20
+        },
+        {
+          "time_to_first_token_s": 2.488,
+          "total_time_s": 2.81,
+          "approx_tokens": 20
+        },
+        {
+          "time_to_first_token_s": 2.507,
+          "total_time_s": 2.848,
+          "approx_tokens": 20
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 2.601,
+        "mean_total_time_s": 2.962,
+        "min_total_time_s": 2.81,
+        "max_total_time_s": 3.228
+      }
+    },
+    "coder_7b__trivial": {
+      "runs": [
+        {
+          "time_to_first_token_s": 11.21,
+          "total_time_s": 41.877,
+          "approx_tokens": 152
+        },
+        {
+          "time_to_first_token_s": 2.686,
+          "total_time_s": 58.148,
+          "approx_tokens": 278
+        },
+        {
+          "time_to_first_token_s": 2.573,
+          "total_time_s": 35.275,
+          "approx_tokens": 164
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 5.49,
+        "mean_total_time_s": 45.1,
+        "min_total_time_s": 35.275,
+        "max_total_time_s": 58.148
+      }
+    },
+    "coder_7b__debug_django": {
+      "runs": [
+        {
+          "time_to_first_token_s": 4.209,
+          "total_time_s": 65.058,
+          "approx_tokens": 300
+        },
+        {
+          "time_to_first_token_s": 2.518,
+          "total_time_s": 62.398,
+          "approx_tokens": 300
+        },
+        {
+          "time_to_first_token_s": 2.696,
+          "total_time_s": 62.463,
+          "approx_tokens": 300
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 3.141,
+        "mean_total_time_s": 63.306,
+        "min_total_time_s": 62.398,
+        "max_total_time_s": 65.058
+      }
+    },
+    "coder_7b__complexe_multi_etapes": {
+      "runs": [
+        {
+          "time_to_first_token_s": 5.047,
+          "total_time_s": 66.185,
+          "approx_tokens": 300
+        },
+        {
+          "time_to_first_token_s": 2.587,
+          "total_time_s": 64.323,
+          "approx_tokens": 300
+        },
+        {
+          "time_to_first_token_s": 2.652,
+          "total_time_s": 75.972,
+          "approx_tokens": 300
+        }
+      ],
+      "summary": {
+        "mean_time_to_first_token_s": 3.429,
+        "mean_total_time_s": 68.827,
+        "min_total_time_s": 64.323,
+        "max_total_time_s": 75.972
+      }
+    },
+    "model_switch_cost": [
+      {
+        "model": "triage_0.5b",
+        "time_to_first_token_s": 2.726,
+        "total_time_s": 3.243,
+        "approx_tokens": 20,
+        "loaded_models_after": [
+          "qwen2.5:0.5b",
+          "qwen2.5-coder:7b"
+        ]
+      },
+      {
+        "model": "coder_7b",
+        "time_to_first_token_s": 4.257,
+        "total_time_s": 22.331,
+        "approx_tokens": 80,
+        "loaded_models_after": [
+          "qwen2.5-coder:7b",
+          "qwen2.5:0.5b"
+        ]
+      },
+      {
+        "model": "triage_0.5b",
+        "time_to_first_token_s": 2.51,
+        "total_time_s": 2.85,
+        "approx_tokens": 20,
+        "loaded_models_after": [
+          "qwen2.5:0.5b",
+          "qwen2.5-coder:7b"
+        ]
+      },
+      {
+        "model": "coder_7b",
+        "time_to_first_token_s": 2.552,
+        "total_time_s": 17.814,
+        "approx_tokens": 80,
+        "loaded_models_after": [
+          "qwen2.5-coder:7b",
+          "qwen2.5:0.5b"
+        ]
+      }
+    ],
+    "stable_prefix_effect_v2": {
+      "call_1": {
+        "time_to_first_token_s": 4.626,
+        "total_time_s": 13.017,
+        "approx_tokens": 42
+      },
+      "call_2": {
+        "time_to_first_token_s": 3.015,
+        "total_time_s": 13.033,
+        "approx_tokens": 50
+      }
+    }
+  }
+}
