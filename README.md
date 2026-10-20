@@ -104,3 +104,8 @@ cos/
 ├── ROADMAP.md
 └── README.md
 ```
+
+## Licence
+
+Code sous [licence Apache-2.0](./LICENSE) · © 2026 Emmanuel Elisé Koné.
+Le nom « COS » n’est pas couvert par cette licence.
