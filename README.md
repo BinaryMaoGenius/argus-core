@@ -1,4 +1,10 @@
-# COS — Cognitive Operating System
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" alt="COS" width="100%">
+  </picture>
+</div>
+
 
 > Un noyau cognitif local-first, modulaire et indépendant du modèle, conçu pour tourner sur du matériel contraint (CPU, sans GPU dédié).
 
